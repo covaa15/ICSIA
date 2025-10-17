@@ -1,4 +1,4 @@
-const productos = [
+export const productos = [
     {
         id: 1,
         nombre: 'Teclado inalámbrico Gaming ',
@@ -11,7 +11,7 @@ const productos = [
         nombre: 'APPLE iPhone 14 Pro Max',
         descripcion: 'iPhone 14 Pro Max, Violeta, Móvil iOS, 512 GB, 6 GB RAM, 6,7 " OLED, Ceramic Shield, 120 Hz, Recubrimiento oleofóbico, Anti-huellas, Apple A16 Bionic (4 nm), 4323 mAh',
         precio: 699.88,
-        imagenURL: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_148961439?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402'
+        imagenURL: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_148961439?x=536&y=402&format=jpg&quality=80'
     },
     {
         id: 3,
