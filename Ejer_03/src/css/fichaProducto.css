@@ -1,35 +1,13 @@
 .ficha-producto {
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    width: 250px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: white;
-}
-
-h2 {
-    color: black;
-}
-
-.precio {
-    font-weight: bold;
-    color: black;
-}
-
-.imagen-producto {
-    width: 50%;
-    border-radius: 1px;
-    margin-bottom: 5px;
-}
-
-.btn-carrito {
-    background: darkcyan;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 0.1px;
-    cursor: pointer;
-}
-
-.btn-carrito:hover {
-    background: lightcyan;
-}
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   
+  }
+  
+  .ficha-producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  

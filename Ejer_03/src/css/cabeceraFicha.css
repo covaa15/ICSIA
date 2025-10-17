@@ -1,0 +1,16 @@
+.cabecera-ficha {
+    padding: 12px;
+    background: linear-gradient(90deg, lightblue, darkcyan);
+    color: black;
+  }
+  
+  .cabecera-ficha h2 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .cabecera-ficha p {
+    font-size: 18px;
+    color: black;
+  }
+  
