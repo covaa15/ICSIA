@@ -1,0 +1,4 @@
+
+function handleActualizarEstado(proyectoId, nuevoEstado){
+    
+}

@@ -14,7 +14,7 @@ const App = () => {
 
   //Busco los usuarios cuyo texto coincide con los de la barra de busqueda
   const usuariosFiltrados = usuarios.filter((usuario) =>
-    usuario.nombre.toLowerCase().includes(filtro.toLowerCase())
+    usuario.nombre.toLowerCase().startsWith(filtro.toLowerCase())
   );
 
   //Busco el usuario cuya ID coincide con la del Usuario Seleccionado
