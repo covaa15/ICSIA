@@ -4,7 +4,7 @@ import UserList from "./components/UserList.jsx";
 import ProfileCard from "./components/ProfileCard.jsx";
 import SearchBar from "./components/SearchBar.jsx";
 
-const App = () => {
+function App() {
 
   //Constante que almacena el ID del usuario Seleccionado
   const [usuarioSeleccionadoId, setUsuarioSeleccionadoId] = useState(null);
