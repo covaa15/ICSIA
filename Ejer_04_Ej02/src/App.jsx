@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import React from "react";
+import Dashboard from "./components/Dashboard.jsx";
 
 function App() {
-
   return (
     <>
-
+      <Dashboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
