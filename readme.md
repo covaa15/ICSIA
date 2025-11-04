@@ -7,6 +7,6 @@
   <a href="https://ejercicio2cova.netlify.app/">Enlace Ejercicio 2</a>
 
    <h2>Ejercicio 5.1</h2>
-   <a href="https://ejercicio5-1.netlify.app/">Enlace Ejercicio 5_1</a>a>
+   <a href="https://ejercicio5-1.netlify.app/">Enlace Ejercicio 5_1</a>
 </div>
 
