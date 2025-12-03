@@ -23,5 +23,10 @@
 
 Las keys son fundamentales porque permiten identificar cada elemento de una lista. Gracias a eso, cuando algo cambia, solo se actualizan los elementos necesarios y no toda la lista completa.
 
+## Ejercicio 5.2
+
+https://ejercicio5-2cova.netlify.app/
+
+
 
 
