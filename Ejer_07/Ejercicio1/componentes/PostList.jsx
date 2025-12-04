@@ -13,11 +13,16 @@ function PostList() {
   return (
     <div>
       <h2>Lista de Posts</h2>
-      <ul>
+      <ol>
         {posts.map((post) => (
-          <li key={post.id}>{post.title}</li>
+          <li data_userID={post.userId} key={post.id}>
+            
+            <h1>{post.title}</h1>
+            <p>{post.body}</p>
+            </li>
+
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }
