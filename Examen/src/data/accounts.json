@@ -1,0 +1,66 @@
+[
+  {
+    "id": "acc_1",
+    "userId": "usr_1",
+    "nombre": "Banco Principal",
+    "tipo": "Corriente",
+    "balanceInicial": 2500,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_2",
+    "userId": "usr_1",
+    "nombre": "Tarjeta de Crédito Oro",
+    "tipo": "Crédito",
+    "balanceInicial": -450,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_3",
+    "userId": "usr_1",
+    "nombre": "Cuenta de Ahorros",
+    "tipo": "Ahorro",
+    "balanceInicial": 10000,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_4",
+    "userId": "usr_2",
+    "nombre": "Mi Banco Personal",
+    "tipo": "Corriente",
+    "balanceInicial": 1800,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_5",
+    "userId": "usr_2",
+    "nombre": "Ahorros Futuro",
+    "tipo": "Ahorro",
+    "balanceInicial": 5500,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_6",
+    "userId": "usr_2",
+    "nombre": "Tarjeta de Crédito Viaje",
+    "tipo": "Crédito",
+    "balanceInicial": -150,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_7",
+    "userId": "usr_3",
+    "nombre": "Cuenta Joven",
+    "tipo": "Corriente",
+    "balanceInicial": 900,
+    "moneda": "EUR"
+  },
+  {
+    "id": "acc_8",
+    "userId": "usr_4",
+    "nombre": "Cuenta Nómina Plus",
+    "tipo": "Corriente",
+    "balanceInicial": 3100,
+    "moneda": "EUR"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "cat_ing_1": { "nombre": "Nómina", "tipo": "ingreso", "icono": "/img/icons/salary.svg" },
+  "cat_ing_2": { "nombre": "Freelance", "tipo": "ingreso", "icono": "/img/icons/freelance.svg" },
+  "cat_ing_3": { "nombre": "Regalo", "tipo": "ingreso", "icono": "/img/icons/gift.svg" },
+  "cat_ing_4": { "nombre": "Inversiones", "tipo": "ingreso", "icono": "/img/icons/investment.svg" },
+  "cat_gas_1": { "nombre": "Alquiler/Hipoteca", "tipo": "gasto", "icono": "/img/icons/home.svg" },
+  "cat_gas_2": { "nombre": "Supermercado", "tipo": "gasto", "icono": "/img/icons/grocery.svg" },
+  "cat_gas_3": { "nombre": "Transporte", "tipo": "gasto", "icono": "/img/icons/transport.svg" },
+  "cat_gas_4": { "nombre": "Ocio y Restaurantes", "tipo": "gasto", "icono": "/img/icons/entertainment.svg" },
+  "cat_gas_5": { "nombre": "Suministros (Luz, Agua)", "tipo": "gasto", "icono": "/img/icons/utilities.svg" },
+  "cat_gas_6": { "nombre": "Compras Online", "tipo": "gasto", "icono": "/img/icons/shopping.svg" },
+  "cat_gas_7": { "nombre": "Salud y Bienestar", "tipo": "gasto", "icono": "/img/icons/health.svg" },
+  "cat_gas_8": { "nombre": "Educación", "tipo": "gasto", "icono": "/img/icons/education.svg" },
+  "cat_gas_9": { "nombre": "Mascotas", "tipo": "gasto", "icono": "/img/icons/pet.svg" }
+}

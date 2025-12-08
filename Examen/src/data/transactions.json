@@ -1,0 +1,17 @@
+[
+  { "id": "trn_1", "accountId": "acc_1", "fecha": "2025-11-01", "descripcion": "Nómina Noviembre", "categoriaId": "cat_ing_1", "monto": 2800, "tipo": "ingreso" },
+  { "id": "trn_2", "accountId": "acc_1", "fecha": "2025-11-02", "descripcion": "Pago Alquiler", "categoriaId": "cat_gas_1", "monto": 850, "tipo": "gasto" },
+  { "id": "trn_3", "accountId": "acc_2", "fecha": "2025-11-05", "descripcion": "Cena restaurante 'El Marino'", "categoriaId": "cat_gas_4", "monto": 75, "tipo": "gasto" },
+  { "id": "trn_4", "accountId": "acc_4", "fecha": "2025-11-01", "descripcion": "Sueldo Marcos", "categoriaId": "cat_ing_1", "monto": 2400, "tipo": "ingreso" },
+  { "id": "trn_5", "accountId": "acc_1", "fecha": "2025-11-07", "descripcion": "Compra en Amazon", "categoriaId": "cat_gas_6", "monto": 45.99, "tipo": "gasto" },
+  { "id": "trn_6", "accountId": "acc_4", "fecha": "2025-11-08", "descripcion": "Compra semanal Carrefour", "categoriaId": "cat_gas_2", "monto": 110, "tipo": "gasto" },
+  { "id": "trn_7", "accountId": "acc_5", "fecha": "2025-11-15", "descripcion": "Ingreso extra proyecto web", "categoriaId": "cat_ing_2", "monto": 500, "tipo": "ingreso" },
+  { "id": "trn_8", "accountId": "acc_2", "fecha": "2025-11-20", "descripcion": "Concierto 'The Killers'", "categoriaId": "cat_gas_4", "monto": 90, "tipo": "gasto" },
+  { "id": "trn_9", "accountId": "acc_7", "fecha": "2025-11-25", "descripcion": "Regalo de cumpleaños", "categoriaId": "cat_ing_3", "monto": 100, "tipo": "ingreso" },
+  { "id": "trn_10", "accountId": "acc_8", "fecha": "2025-11-28", "descripcion": "Nómina Diciembre", "categoriaId": "cat_ing_1", "monto": 3200, "tipo": "ingreso" },
+  { "id": "trn_11", "accountId": "acc_1", "fecha": "2025-12-01", "descripcion": "Nómina Diciembre", "categoriaId": "cat_ing_1", "monto": 2800, "tipo": "ingreso" },
+  { "id": "trn_12", "accountId": "acc_4", "fecha": "2025-12-01", "descripcion": "Sueldo Marcos Diciembre", "categoriaId": "cat_ing_1", "monto": 2400, "tipo": "ingreso" },
+  { "id": "trn_13", "accountId": "acc_6", "fecha": "2025-12-02", "descripcion": "Vuelo a Roma", "categoriaId": "cat_gas_4", "monto": 250, "tipo": "gasto" },
+  { "id": "trn_14", "accountId": "acc_7", "fecha": "2025-12-03", "descripcion": "Matrícula curso React", "categoriaId": "cat_gas_8", "monto": 400, "tipo": "gasto" },
+  { "id": "trn_15", "accountId": "acc_8", "fecha": "2025-12-04", "descripcion": "Pienso para perro", "categoriaId": "cat_gas_9", "monto": 55, "tipo": "gasto" }
+]

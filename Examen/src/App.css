@@ -1,0 +1,356 @@
+/* sol1/src/App.css */
+
+/* App Header */
+.app-header {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  font-size: 1.75rem;
+}
+
+/* User Selector */
+.user-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user-selector label {
+  font-weight: bold;
+}
+.user-selector select {
+  min-width: 200px;
+}
+
+/* Main Layout */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-1);
+  width: 100%;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--color-background);
+  padding-bottom: 0.5rem;
+  color: var(--color-primary-dark);
+}
+
+/* Dashboard */
+.dashboard-summary {
+  margin-bottom: 2rem;
+}
+
+.summary-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 5px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: var(--shadow-1);
+}
+
+.summary-card h3 {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.summary-card .amount {
+  font-size: 1.4rem; /* Reduced font size */
+  font-weight: bold;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
+}
+
+.account-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.account-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.account-list .account-name {
+  font-weight: 500;
+}
+
+.account-list .account-balance {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Transaction Form */
+.transaction-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.transaction-form .form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-form .form-control label {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+/* Transaction History */
+.history-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-background);
+}
+
+.history-header h2 {
+  margin: 0;
+  border: none;
+}
+
+.history-filters select {
+  flex-grow: 1;
+}
+
+.transaction-list {
+  list-style: none;
+}
+
+.transaction-item {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-background);
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.transaction-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-details .description {
+  font-weight: bold;
+}
+.transaction-details .meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.transaction-amount {
+  font-weight: bold;
+  font-size: 1.1rem;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.transaction-amount.income {
+  color: var(--color-income);
+}
+
+.transaction-amount.expense {
+  color: var(--color-expense);
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 5px;
+}
+.delete-btn:hover {
+  color: var(--color-error);
+}
+
+/* User Selection Screen */
+.user-selection-container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-selection-header h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+}
+
+.user-selection-header p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.user-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.user-card {
+  background: var(--color-white);
+  border-radius: 8px;
+  box-shadow: var(--shadow-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.user-card-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.user-card-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.user-card-info p {
+  color: #777;
+}
+
+.user-select-btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+
+/* Dashboard Header & Controls */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-background);
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  border: none;
+}
+
+.dashboard-controls select {
+  min-width: 200px;
+}
+
+/* New Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: var(--shadow-2);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #999;
+  cursor: pointer;
+}
+.modal-close-btn:hover {
+  color: #333;
+}
+
+/* Button for opening modal */
+.primary-action-btn {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PostDetailsNombre from '../componentes/PostDetailsNombre.jsx';
+import PostDetailsNombre from './componentes/PostDetailsNombre.jsx';
 
 function App() {
 

@@ -1,0 +1,66 @@
+/* sol1/src/index.css */
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-background: #f0f2f5;
+  --color-text: #333;
+  --color-primary: #546e7a;
+  --color-primary-dark: #29434e;
+  --color-accent: #81d4fa;
+  --color-white: #ffffff;
+  --color-border: #d9d9d9;
+  --color-income: #2e7d32;
+  --color-expense: #c62828;
+  --color-error: #d32f2f;
+  
+  --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}

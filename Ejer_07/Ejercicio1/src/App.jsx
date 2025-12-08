@@ -1,4 +1,4 @@
-import PostList from '../componentes/PostList.jsx';
+import PostList from './componentes/PostList.jsx';
 
 function App() {
   return (
