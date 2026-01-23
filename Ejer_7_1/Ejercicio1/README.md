@@ -4,23 +4,23 @@ VERSION SIN OPTIMIZAR:
 
     Primer click:
      
-        ![alt text](image.png)
+        ![alt text](img/image.png)
     
     Segundo click:
          
-        ![alt text](image-1.png)
+        ![alt text](img/image-1.png)
     
     Tercer click:
 
-        ![alt text](image-2.png)
+        ![alt text](img/image-2.png)
     
     Cuarto click:
 
-        ![alt text](image-3.png)
+        ![alt text](img/image-3.png)
     
     Quito click:
 
-        ![alt text](image-4.png)
+        ![alt text](img/image-4.png)
 
 
 -- Pregunta 4 -- 
