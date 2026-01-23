@@ -4,7 +4,7 @@ VERSION SIN OPTIMIZAR:
 
     Primer click:
      
-        ![alt text](img/image.png)
+        ![alt text](./img/image.png)
     
     Segundo click:
          
