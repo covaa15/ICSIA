@@ -1,0 +1,60 @@
+ body {
+    margin: 0;
+    background: #1e1e1e;
+    color: #fff;
+  }
+  
+  .layout {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+  }
+  
+  .panel-controles,
+  .panel-preview section {
+    background: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .panel-controles {
+    width: 300px;
+  }
+  
+  .panel-controles h2 {
+    color: #8e7cff;
+    border-bottom: 2px solid #8e7cff;
+  }
+  
+  .panel-preview {
+    flex: 1;
+  }
+  
+  .panel-preview h2 {
+    color: #4ef3c2;
+    border-bottom: 2px solid #4ef3c2;
+  }
+  
+  button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .boton-preview {
+    color: white;
+  }
+  
+  .botones-texto {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .card-preview {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
