@@ -1,0 +1,28 @@
+
+  body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background-color: #f8fafc;
+  }
+  
+  aside {
+    background-color: #ffffff;
+  }
+  
+  main {
+    background-color: #ffffff;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  a.active {
+    font-weight: bold;
+  }
+  
