@@ -5,7 +5,7 @@ import { RouterProvider } from 'react-router-dom'
 import router from './app.jsx'
 import './css/style.css'
 
-// Inicio la aplicación cargando el router
+// Inicio la aplicacion cargando el router
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
