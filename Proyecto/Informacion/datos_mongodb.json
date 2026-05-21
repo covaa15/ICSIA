@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Vuelta al Embalse de Trasona",
+    "kms": 14,
+    "dificultad": "Sencilla",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/ruta+del+alba_1920x1080.jpg"
+  },
+  {
+    "nombre": "Ruta del Acebo",
+    "kms": 22,
+    "dificultad": "Media",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Senda+del+Oso_1920x1080.jpg"
+  },
+  {
+    "nombre": "Ascenso al Monsacro",
+    "kms": 64,
+    "dificultad": "Dificil",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Picos+de+Europa_1920x1080.jpg"
+  },
+  {
+    "nombre": "Senda Costera de Luanco",
+    "kms": 9,
+    "dificultad": "Sencilla",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/ruta+del+alba_1920x1080.jpg"
+  },
+  {
+    "nombre": "Circular de Pola de Allande",
+    "kms": 38,
+    "dificultad": "Media",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Senda+del+Oso_1920x1080.jpg"
+  },
+  {
+    "nombre": "Travesía de los Valles Mineros",
+    "kms": 77,
+    "dificultad": "Dificil",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Picos+de+Europa_1920x1080.jpg"
+  },
+  {
+    "nombre": "Camino Real de la Mesa",
+    "kms": 18,
+    "dificultad": "Sencilla",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/ruta+del+alba_1920x1080.jpg"
+  },
+  {
+    "nombre": "Ruta del Prerrománico",
+    "kms": 31,
+    "dificultad": "Media",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Senda+del+Oso_1920x1080.jpg"
+  },
+  {
+    "nombre": "Cresta de la Sierra del Aramo",
+    "kms": 58,
+    "dificultad": "Dificil",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Picos+de+Europa_1920x1080.jpg"
+  },
+  {
+    "nombre": "Litoral de Cabo Busto",
+    "kms": 11,
+    "dificultad": "Sencilla",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/ruta+del+alba_1920x1080.jpg"
+  },
+  {
+    "nombre": "Valle del Pigüeña",
+    "kms": 44,
+    "dificultad": "Media",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Senda+del+Oso_1920x1080.jpg"
+  },
+  {
+    "nombre": "Techo de Asturias - Pico Cornión",
+    "kms": 85,
+    "dificultad": "Dificil",
+    "imagen": "https://www.turismoasturias.es/documents/32131/0/Picos+de+Europa_1920x1080.jpg"
+  }
+]
